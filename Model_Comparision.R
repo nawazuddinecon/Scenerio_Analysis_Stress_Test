@@ -43,7 +43,7 @@ for (tau in tau_vals) {
       }
     }
     
-    # --- Minnesota-style Dummies ---
+    # ---  Dummy-Initial-Observation ---
     Y_minn <- matrix(0, nrow = n_vars * lags + 1, ncol = n_vars)
     X_minn <- matrix(0, nrow = n_vars * lags + 1, ncol = ncol(X))
     for (i in 1:n_vars) {
