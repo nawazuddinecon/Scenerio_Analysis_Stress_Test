@@ -1,5 +1,5 @@
 # ---------------------------------------------------------
-# Forecast Comparison for Different τ value
+# Forecast Comparison for Different τ values
 # ---------------------------------------------------------
 
 # ---- PARAMETERS ----
