@@ -69,7 +69,7 @@ for (i in 1:n_vars) {
 }
 
 # -------------------------------
-# Step 2: Single-unit-root dummy-observation
+# Step 2: Dummy-Initial-Observation
 # -------------------------------
 Y_minn <- matrix(0, nrow = n_vars * lags + 1, ncol = n_vars)
 X_minn <- matrix(0, nrow = n_vars * lags + 1, ncol = n_vars * lags + 1)
